@@ -20,11 +20,13 @@ End the program
 # Program to find the eigen values and eigen vectors
 # Developed by:
 # RegisterNumber:
+```
 import numpy as np
 A = np.array([[2, 2],
               [1, 3]])
 eigenvalues, eigenvectors = np.linalg.eig(A)
 print("Eigen values are", eigenvalues, "and Eigen Vectors are", eigenvectors)
+```
 
 ## Output:
 <img width="1919" height="1143" alt="Screenshot 2025-08-20 085212" src="https://github.com/user-attachments/assets/fe158282-a9fa-47b3-b48a-70f20e852738" />
